@@ -1,4 +1,4 @@
-import { Footer, Navbar } from "../components";
+import { Footer, Navbar } from '../components';
 import {
   About,
   Explore,
@@ -8,26 +8,26 @@ import {
   Insights,
   WhatsNew,
   World,
-} from "../sections";
+} from '../sections';
 
 const Page = () => (
-  <div className="overflow-hidden bg-primary-black">
+  <div className='overflow-hidden bg-primary-black'>
     <Navbar />
     <Hero />
-    <div className="relative">
+    <div className='relative'>
       <About />
-      <div className="z-0 gradient-03" />
+      <div className='z-0 gradient-03' />
       <Explore />
     </div>
-    <div className="relative">
+    <div className='relative'>
       <GetStarted />
-      <div className="z-0 gradient-04" />
+      <div className='z-0 gradient-04' />
       <WhatsNew />
     </div>
     <World />
-    <div className="relative">
+    <div className='relative'>
     <Insights />
-    <div className="z-0 gradient-04" />
+    <div className='z-0 gradient-04' />
     <Feedback />
     </div>
     <Footer />
